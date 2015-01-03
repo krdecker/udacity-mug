@@ -1,21 +1,15 @@
-
-
-/* SWITCH 
 * {
-    outline: 1px solid red !important;
-}
-*/
-
-*{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     -ms-box-sizing:border-box;
     box-sizing:border-box;
 }
 
+
 html {
     font-family: "Lucida Grande", sans-serif;
 }
+
 
 h1 {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
@@ -25,6 +19,7 @@ h1 {
     font-weight: 400;
     line-height: 60px;
 }
+
 h2 {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size: 24px;
@@ -34,7 +29,10 @@ h2 {
     line-height: 25.5px;
 }
 
-p, li {
+
+p,
+
+li {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -44,35 +42,40 @@ p, li {
 }
 
 
-p, li {
+p,
+
+li {
     color: #666;
     margin-bottom: 10px;
 }
 
+
 img {
     border: 1px solid #ccc;
 }
+
 
 .headline {
     color: #666;
     margin:10px;
 }
 
+
 .listbox {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
 }
+
 
 .listhead{
     color: #f07c17;
-    margin: 20px; 
+    margin: 20px;
 }
 
-.list{}
 
 .subhead {
     color: #f07c17;
-    margin: 0px 0px 20px 0px;
+    margin: 0 0 20px 0;
 }
