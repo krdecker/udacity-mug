@@ -8,7 +8,7 @@ body {
 
 
 p {
-    font-size: 1.55em;
+    font-size: 1.6em;
     line-height: 2.0;
    /* line-height: 2.25;*/
     /*margin-bottom: 10px;*/
@@ -24,8 +24,8 @@ ul {
 
 
 li {
-    font-size: 1.5em;
-    /*line-height: 2.25;*/
+    font-size: 1.6em;
+    line-height: 2.0;
     /*font-size: 16px;*/
     /*line-height: 18px;*/
    /* margin-bottom: 10px;*/
@@ -71,9 +71,9 @@ li {
 
 
 .list-box {
-    padding-top: 5px;
-    padding-left: 32px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 28px;
     margin-top: 0;
     /*margin-bottom: 30px;*/
     border: 1px solid #ccc;
