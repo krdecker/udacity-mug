@@ -1,32 +1,43 @@
 body {
     font-family: Kalimati, Verdana, sans-serif;
-    /*font-weight: 400;*/
+    font-size: 100%;
+    font-weight: 400;
     color: #666;
     /*padding: 20px;*/
 }
 
 
 p {
-    /*font-size: 16px;*/
-    /*line-height: 26px;*/
+    font-size: 1.55em;
+    line-height: 2.0;
+   /* line-height: 2.25;*/
     /*margin-bottom: 10px;*/
+    /*padding-left: 2px;
+    padding-right: 4px;*/
 }
 
 
 ul {
     /*margin: 26px;*/
-    /*padding: 20px;*/
+   /* padding-bottom: 40px;*/
 }
 
 
 li {
+    font-size: 1.5em;
+    /*line-height: 2.25;*/
     /*font-size: 16px;*/
     /*line-height: 18px;*/
-    /*margin-bottom: 10px;*/
+   /* margin-bottom: 10px;*/
 }
 
 .container {
-   max-width: 1024px;
+    max-width: 1024px;
+}
+
+.content {
+    margin-top: 20px;
+
 }
 
 .text-mug-color {
@@ -35,41 +46,48 @@ li {
 
 
 .text-phat {
-    /*font-size: 24px;*/
-    /*font-weight: 600;*/
-    /*line-height: 25.5px;*/
+    font-size: 2.35em;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 
-.headline-box {
+.head-line-box {
+     margin-top: 25px;
     /*margin-bottom: 17px;*/
 }
 
-.bighead {
-    /*font-size: 48px;*/
+.big-head {
+    font-size: 4.8em;
     /*line-height: 60px;*/
+
 }
 
 
 .main-pic {
     border: 1px solid #ccc;
+    margin-bottom: 30px;
 }
 
 
-.listbox {
-    /*padding: 20px;*/
-    /*margin-top: 30px;*/
+.list-box {
+    padding-top: 5px;
+    padding-left: 32px;
+    padding-bottom: 24px;
+    margin-top: 0;
     /*margin-bottom: 30px;*/
     border: 1px solid #ccc;
 }
 
 
-.listhead {
-    /*margin: 10px;*/
+.list-head {
+    margin-bottom: 28px;
 }
 
 
-.subhead {
-    /*margin-top: 0;*/
-    /*margin-bottom: 20px;*/
+.sub-head {
+    margin-top: -2px;
+    margin-bottom: 20px;
+    /*padding-left: 2px;
+    padding-right: 4px;*/
 }
